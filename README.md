@@ -9,10 +9,14 @@ Testing IVR in Skype using the Microsoft Bot Framework.
 
 ## Setup
 
-- Change the BotId, MicrosoftAppId, MicrosoftAppPassword and Microsoft.Bot.Builder.Calling.CallbackUrl Web.config parameters according to your own newly registered bot information;
+- Change the BotId, MicrosoftAppId, MicrosoftAppPassword and Microsoft.Bot.Builder.Calling.CallbackUrl parameters in Web.config according to your own newly registered bot information;
 - Add the Bot as a Skype contact;
 - Try to send a message or call the bot.
 
 ## Add this bot to your Skype
 
 If you don't want to configure everything on your own you can also [add the bot as your contact in Skype](https://join.skype.com/bot/4b5f2a1c-7c01-4964-b5d4-c606a6451c61).
+
+## Notes
+
+The base code for this demo was the [Calling Bot Application template](https://aka.ms/bf-builder-calling).
